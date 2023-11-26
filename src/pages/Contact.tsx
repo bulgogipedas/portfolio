@@ -19,6 +19,7 @@ export default function Contact() {
           <button className="py-2 px-4 text-white rounded-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-[24px] hover:ring-2 ring-white duration-300 active:font-bold">
             Get in touch
           </button>
+          
         </a>
       </div>
     </div>
