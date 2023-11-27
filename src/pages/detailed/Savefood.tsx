@@ -40,31 +40,33 @@ export default function Tucome() {
       <div className=" text-white pb-5 px-[150px]">
         <h1 className="text-[64px] font-extrabold pb-4">Project Summary</h1>
         <p className="text-[18px]  text-justify   ">
-          Indonesia, ranked 91st among the world's economically challenged
-          nations in 2022, grapples with systemic issues such as insufficient
-          minimum wages, substandard living conditions, and a persistent rise in
-          unemployment rates. This predicament significantly impacts skilled
-          laborers, including builders, service providers, and tailors, who play
-          vital roles in daily life. Unfortunately, their contributions often go
-          unrecognized, compounded by a lack of educational opportunities.
-          According to 2022 data from the Central Statistics Agency (BPS),
-          workers with a high school education earn an average monthly net
-          income of Rp1,490,000.00, a figure that incrementally rises to
-          Rp1,541,700.00 in 2023, though it remains below subsistence levels. In
-          response to these challenges and with a commitment to contributing to
-          Indonesia's Sustainable Development Goals (SDGs) by 2030, the BCC x
-          RAION team proposes Tucome, a pioneering application. <br></br>
-          <br></br>Tucome seeks to bridge the gap between skilled workers and
-          potential clients by introducing the innovative Kangbot feature. This
-          functionality allows users to engage in consultations through photos,
-          text, or voice, obtaining AI-driven insights and tailored
-          recommendations for suitable skilled workers. By fostering connections
-          between skilled workers and the community, Tucome aims to support
-          Indonesia in achieving SDG objectives related to poverty alleviation
-          and promoting decent work and economic growth. This innovative
-          solution holds the potential to benefit both skilled workers and those
-          seeking their services, aligning with the overarching goals of a
-          sustainable and inclusive future.
+          Food loss and food waste pose significant challenges in Indonesia,
+          impacting both food security and the environment. Approximately 14
+          million tons of food are lost annually for various reasons, including
+          inadequate post-harvest handling infrastructure and inefficient
+          farming practices. According to the UNEP Food Waste Index Report 2021,
+          globally, around 931 million tons of food waste are generated each
+          year, with households contributing 61 percent of this total. In
+          Indonesia, food waste reached 46.35 million tons in 2021, making up
+          the largest share of the annual waste composition. Food loss occurs at
+          various stages of production and distribution, involving challenges in
+          agricultural techniques, limited access to modern technology, and
+          issues with transportation and storage. Addressing these issues
+          requires collaborative efforts, encompassing infrastructure
+          improvement, education, and policies supporting sustainable farming
+          and food distribution practices.<br></br>
+          <br></br>Savefood app aims to address the challenges of food waste by
+          providing a food rescue platform that facilitates donations and
+          features a marketplace to combat the issue of food loss. Users can
+          actively participate in minimizing food waste by contributing and
+          accessing surplus food through the app. This innovative solution not
+          only helps reduce food loss but also fosters a sense of community
+          engagement. By connecting those with excess food to those in need,
+          Savefood contributes to sustainable development goals, specifically
+          targeting zero hunger and responsible consumption. The app aligns with
+          the broader vision of promoting a sustainable and inclusive future by
+          leveraging technology to create positive social and environmental
+          impact.
         </p>
       </div>
 
@@ -83,32 +85,32 @@ export default function Tucome() {
       <div className=" text-white pb-5 px-[150px]">
         <h1 className="text-[64px] font-extrabold pb-4">The Problem</h1>
         <p className="text-[18px]  text-justify   ">
-          Indonesia, positioned 91st among nations facing economic challenges,
-          contends with issues such as insufficient minimum wages, substandard
-          living conditions, and a steadily increasing unemployment rate,
-          notably impacting skilled workers. Despite playing vital roles in
-          daily life, these workers encounter economic struggles exacerbated by
-          limited recognition and educational opportunities. The existing income
-          disparity among skilled workers, as indicated by 2022 data from the
-          Central Statistics Agency (BPS), highlights the need for targeted
-          solutions to address these challenges.
+          Food loss and waste pose a significant challenge in Indonesia, with 14
+          million tons lost annually due to inadequate infrastructure and
+          inefficient practices. Household contributions, accounting for 61% of
+          the global 931 million tons of annual waste, exacerbate the issue. In
+          2021, Indonesia alone generated 46.35 million tons of food waste.
+          Addressing these inefficiencies is vital for achieving sustainable
+          development goals, including poverty alleviation and responsible
+          consumption. Innovative solutions are crucial to creating a more
+          sustainable and inclusive future by connecting surplus food with those
+          in need.
         </p>
       </div>
 
       <div className=" text-white pb-5 px-[150px]">
         <h1 className="text-[64px] font-extrabold pb-4">The Solution</h1>
         <p className="text-[18px]  text-justify   ">
-          The proposed solution to address the economic challenges faced by
-          skilled workers in Indonesia is the introduction of Tucome, an
-          innovative application. Tucome serves as a platform connecting skilled
-          workers with potential clients and features the Kangbot functionality,
-          allowing users to engage in consultations through photos, text, or
-          voice. This AI-driven feature provides tailored insights and
-          recommendations for suitable skilled workers. By facilitating these
-          connections, Tucome aims to alleviate the economic hardships faced by
-          skilled workers, contribute to poverty reduction, and support
-          Indonesia in achieving Sustainable Development Goals related to decent
-          work and economic growth.
+          Introducing Savefood, an innovative app designed to tackle the food
+          loss and waste issue in Indonesia. Savefood acts as a food rescue
+          platform, allowing users to donate surplus food through a marketplace
+          feature. This solution encourages community engagement and facilitates
+          the redistribution of excess food to those in need. By leveraging
+          technology, Savefood aims to bridge the gap in the food supply chain
+          and contribute to sustainable development goals, particularly zero
+          hunger and responsible consumption. The app offers a practical and
+          user-friendly solution to minimize food waste, fostering a more
+          sustainable and inclusive future.
         </p>
       </div>
 
@@ -122,9 +124,22 @@ export default function Tucome() {
           To further maximize user research, we use 3 different approaches.
         </p>
       </div>
-      <div className="bg-white w-[70%] rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
-        <img className="w-[70%]" src="public/images/positioningSavefood.png" alt="" />
+      <div className="flex gap-10">
+      <div className="w-[323px] h-[334px] bg-zinc-700 rounded-3xl"></div>
+      <div className="w-[323px] h-[334px] bg-zinc-700 rounded-3xl"></div>
+      <div className="w-[323px] h-[334px] bg-zinc-700 rounded-3xl"></div>
       </div>
+      <div className=" text-white pb-5 px-[150px]">
+      <h1 className="text-[64px] font-extrabold pb-4">Usability Testing</h1>
+      <div className="bg-white w-full rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
+        <img
+          className="w-[70%]"
+          src="public/images/positioningSavefood.png"
+          alt=""
+        />
+      </div>
+      </div>
+
       <div className=" text-white pb-5 px-[150px]">
         <p className="text-[18px]  text-justify   ">
           We have also developed perceptual mapping to chart the position of our
@@ -152,11 +167,15 @@ export default function Tucome() {
           done using the Maze platform.
         </p>
       </div>
-      <div className="bg-[#F1ECFF] w-[70%] rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
-        <img className="w-[70%]" src="public/images/usabilityTesting.png" alt="" />
+      <div className="bg-[#F1ECFF] w-[70%] rounded-2xl  mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
+        <img
+          className="w-full h-full object-cover rounded-2xl"
+          src="public/images/Maze.png"
+          alt=""
+        />
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -21,6 +21,7 @@ export default function App() {
           <Route path="/" element={<About />} />
           <Route path="/Notes" element={<Notes />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Tucome" element={<Tucome />} />
           <Route path="/Savefood" element={<Savefood />} />
           <Route path="/Coddie" element={<Coddie />} />
           <Route path="/NutriSync" element={<NutriSync />} />

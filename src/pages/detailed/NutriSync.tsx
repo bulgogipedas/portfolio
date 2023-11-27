@@ -6,8 +6,8 @@ export default function Tucome() {
   return (
     <div className="pt-[185px] font-segoe_ui mx-[3%]">
       <Navbar />
-      <h1 className="font-segoe_ui text-[#B9DFFC] font-extrabold text-center items-center text-[128px]">
-        Tucome
+      <h1 className="font-segoe_ui text-transparent bg-gradient-to-br from-[#53963C] via-[#72CA3C] to-[#E2E548] bg-clip-text font-extrabold text-center items-center text-[128px]">
+        NutriSync
       </h1>
 
       <div className="flex gap-10 items-start justify-center text-[20px] text-white mb-16">
@@ -19,93 +19,88 @@ export default function Tucome() {
           <h3 className="font-bold">Team</h3>
           <ul>
             <li>Rafli Ardiansyah</li>
-            <li>Paula Sugiarto</li>
-            <li>Noory Azyza</li>
-            <li>Anda Bagas Priyanto</li>
+            <li>Talitha Agus Shakira</li>
           </ul>
         </div>
         <div className="flex flex-col">
           <h3 className="font-bold">Role</h3>
           <ul>
-            <li>Product Management</li>
-            <li>UX Research</li>
+            <li>UX Researcher</li>
             <li>UI Designer</li>
           </ul>
         </div>
       </div>
 
-      <div className="bg-[#8255F8] w-full rounded-2xl py-12 flex flex-wrap gap-10 items-center justify-center mb-10">
-        <img className="w-[70%]" src="public/tucomeBarcode.svg" alt="" />
+      <div className="bg-gradient-to-br from-[#53963C] via-[#72CA3C] to-[#E2E548] w-full rounded-2xl py-12 flex flex-wrap gap-10 items-center justify-center mb-10">
+        <img className="w-[70%]" src="public/images/nutriScan.png" alt="" />
       </div>
 
       <div className=" text-white pb-5 px-[150px]">
         <h1 className="text-[64px] font-extrabold pb-4">Project Summary</h1>
         <p className="text-[18px]  text-justify   ">
-          Indonesia, ranked 91st among the world's economically challenged
-          nations in 2022, grapples with systemic issues such as insufficient
-          minimum wages, substandard living conditions, and a persistent rise in
-          unemployment rates. This predicament significantly impacts skilled
-          laborers, including builders, service providers, and tailors, who play
-          vital roles in daily life. Unfortunately, their contributions often go
-          unrecognized, compounded by a lack of educational opportunities.
-          According to 2022 data from the Central Statistics Agency (BPS),
-          workers with a high school education earn an average monthly net
-          income of Rp1,490,000.00, a figure that incrementally rises to
-          Rp1,541,700.00 in 2023, though it remains below subsistence levels. In
-          response to these challenges and with a commitment to contributing to
-          Indonesia's Sustainable Development Goals (SDGs) by 2030, the BCC x
-          RAION team proposes Tucome, a pioneering application. <br></br>
-          <br></br>Tucome seeks to bridge the gap between skilled workers and
-          potential clients by introducing the innovative Kangbot feature. This
-          functionality allows users to engage in consultations through photos,
-          text, or voice, obtaining AI-driven insights and tailored
-          recommendations for suitable skilled workers. By fostering connections
-          between skilled workers and the community, Tucome aims to support
-          Indonesia in achieving SDG objectives related to poverty alleviation
-          and promoting decent work and economic growth. This innovative
-          solution holds the potential to benefit both skilled workers and those
-          seeking their services, aligning with the overarching goals of a
-          sustainable and inclusive future.
+          In tackling Indonesia's prevalent health challenges, we present
+          NutriSync—an intelligent application crafted to guide individuals in
+          crafting personalized diet plans and exercise routines. Harnessing the
+          power of artificial intelligence (AI), NutriSync not only facilitates
+          the achievement of personal health objectives but also aligns with
+          Sustainable Development Goal 3: Good Health and Well-being. Addressing
+          the issue of unhealthy dietary practices in Indonesia, NutriSync
+          regulates food types and quantities to meet nutritional needs without
+          excessive salt, sugar, and trans fats. The application emphasizes
+          improving nutritional literacy by considering individual factors such
+          as physical condition, age, and food allergies, ensuring the delivery
+          of personalized and effective diet plans. <br></br>
+          <br></br>NutriSync's core features involve the smart utilization of AI
+          technology to design meal and exercise plans tailored to users' daily
+          routines. Guided by nutrition experts, NutriSync assists users in
+          avoiding unhealthy eating patterns commonly associated with excessive
+          sugar, salt, and fats. Through NutriSync, our aim is to empower the
+          Indonesian community to embrace healthier lifestyles and contribute to
+          the realization of SDG Goal 3, fostering a healthier and more
+          prosperous society.
         </p>
       </div>
 
-      <div className="bg-gradient-to-l from-blue-500 via-blue-600 to-blue-700 w-full rounded-2xl py-12 items-center justify-center mb-10 text-white px-[150px] ">
+      <div className="bg-gradient-to-r from-[#53963C] via-[#72CA3C] to-[#E2E548] w-full rounded-2xl py-12 items-center justify-center mb-10 text-white px-[150px] ">
         <h1 className="text-[48px] font-bold ">Achievement</h1>
         <p className="text-[24px]">
-          1st Winners UX Challenge 4C National Competition 2023
+          1st Runner-up Winners UI UX Design ICOM Universitas Ahmad Dahlan
+          Competition 2023
         </p>
-        <DetailButton uri="https://bit.ly/PrototypeTucome" />
+        <DetailButton uri="https://www.figma.com/proto/XaaHKqHUDEUlSxDp65KuDz/RaTa-yby_UIUX_ICOM23?page-id=2%3A8&type=design&node-id=496-13433&viewport=1961%2C-367%2C0.11&t=J3q6DtZSAGyI6IIw-1&scaling=scale-down&starting-point-node-id=496%3A13433&mode=design" />
       </div>
 
       <div className=" text-white pb-5 px-[150px]">
         <h1 className="text-[64px] font-extrabold pb-4">The Problem</h1>
         <p className="text-[18px]  text-justify   ">
-          Indonesia, positioned 91st among nations facing economic challenges,
-          contends with issues such as insufficient minimum wages, substandard
-          living conditions, and a steadily increasing unemployment rate,
-          notably impacting skilled workers. Despite playing vital roles in
-          daily life, these workers encounter economic struggles exacerbated by
-          limited recognition and educational opportunities. The existing income
-          disparity among skilled workers, as indicated by 2022 data from the
-          Central Statistics Agency (BPS), highlights the need for targeted
-          solutions to address these challenges.
+          Dietary practices in Indonesia are marred by widespread misconceptions
+          and unhealthy patterns. Diet, often misunderstood as a form of food
+          restriction, poses the risk of nutritional deficiencies. According to
+          the Ministry of Health, a staggering 95.5% of Indonesians follow
+          unhealthy diets, a significant increase from the 2013 Basic Health
+          Research findings. This unhealthy trend is evident in the excessive
+          intake of sugar, salt, and fats, surpassing recommended levels. The
+          majority resort to reducing meal frequency or portion sizes, while a
+          significant portion avoids essential nutrients like carbohydrates and
+          fats. Only a small percentage explores alternative diets, and a
+          substantial number fails to achieve their diet goals.
         </p>
       </div>
 
       <div className=" text-white pb-5 px-[150px]">
         <h1 className="text-[64px] font-extrabold pb-4">The Solution</h1>
         <p className="text-[18px]  text-justify   ">
-          The proposed solution to address the economic challenges faced by
-          skilled workers in Indonesia is the introduction of Tucome, an
-          innovative application. Tucome serves as a platform connecting skilled
-          workers with potential clients and features the Kangbot functionality,
-          allowing users to engage in consultations through photos, text, or
-          voice. This AI-driven feature provides tailored insights and
-          recommendations for suitable skilled workers. By facilitating these
-          connections, Tucome aims to alleviate the economic hardships faced by
-          skilled workers, contribute to poverty reduction, and support
-          Indonesia in achieving Sustainable Development Goals related to decent
-          work and economic growth.
+          To address this pervasive issue, we present NutriSync—a revolutionary
+          solution designed to guide individuals towards healthier dietary
+          practices. NutriSync leverages artificial intelligence (AI) to create
+          personalized diet plans and exercise routines tailored to users' daily
+          routines. By improving nutritional literacy and considering individual
+          factors such as physical condition, age, and food allergies, NutriSync
+          aims to shift the narrative on diets. This application not only
+          empowers users to make informed choices but also aligns with
+          Sustainable Development Goal 3: Good Health and Well-being. Through
+          NutriSync, we aspire to foster a healthier lifestyle nationwide,
+          contributing to a prosperous and sustainable society.
         </p>
       </div>
 
@@ -120,20 +115,26 @@ export default function Tucome() {
         </p>
       </div>
       <div className="bg-white w-[70%] rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
-        <img className="w-[70%]" src="public/positioningApp.svg" alt="" />
+        <img
+          className="w-[80%]"
+          src="public/images/positioningNutrisync.png"
+          alt=""
+        />
       </div>
       <div className=" text-white pb-5 px-[150px]">
         <p className="text-[18px]  text-justify   ">
-          We have also developed perceptual mapping to chart the position of our
-          product in comparison to competitors, focusing on the aspects of price
-          and features offered. This analysis is divided into two key
-          dimensions: sophistication and the variety of job services. The first
-          dimension, sophistication, denotes the level of innovative technology
-          embedded in the application. The second dimension, variety,
-          illustrates the diversity of job services available. In this
-          perceptual mapping, we place the Tucome application in the segment
-          representing high sophistication and diversity, affirming its position
-          as a sophisticated and diverse solution in this category.
+          In navigating the dynamic health-tech landscape, we've employed
+          perceptual mapping to delineate NutriSync's standing relative to
+          competitors, with a keen focus on pricing and offered features. This
+          comprehensive analysis hinges on two pivotal dimensions:
+          sophistication and the breadth of health services provided.
+          Sophistication gauges the level of innovative technology integrated
+          into the application, while variety illuminates the diversity of
+          health services offered. Through this strategic perceptual mapping,
+          NutriSync firmly secures its place in the quadrant synonymous with
+          high sophistication and diversity. This affirms NutriSync's standing
+          as a sophisticated and multifaceted solution, poised to redefine the
+          health-tech category.
         </p>
       </div>
 
@@ -149,11 +150,15 @@ export default function Tucome() {
           done using the Maze platform.
         </p>
       </div>
-      <div className="bg-[#F1ECFF] w-[70%] rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
-        <img className="w-[70%]" src="public/images/usabilityTesting.png" alt="" />
+      <div className="bg-white w-[70%] rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
+        <img
+          className="w-[70%]"
+          src="public/images/testingNutrisync.png"
+          alt=""
+        />
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }
