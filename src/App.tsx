@@ -5,7 +5,11 @@ import Work from './pages/Work';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Notes from './pages/Notes';
-import Tucome from './pages/detailed/Tucome'
+import Tucome from './pages/detailed/Tucome';
+import Savefood from './pages/detailed/Savefood';
+import Coddie from './pages/detailed/Coddie';
+import NutriSync from './pages/detailed/NutriSync';
+import Ecotions from './pages/detailed/Ecotions';
 
 export default function App() {
   return (
@@ -17,7 +21,10 @@ export default function App() {
           <Route path="/" element={<About />} />
           <Route path="/Notes" element={<Notes />} />
           <Route path="/Contact" element={<Contact />} />
-          <Route path="/Tucome" element={<Tucome />} />
+          <Route path="/Savefood" element={<Savefood />} />
+          <Route path="/Coddie" element={<Coddie />} />
+          <Route path="/NutriSync" element={<NutriSync />} />
+          <Route path="/Ecotions" element={<Ecotions />} />
         </Routes>
       </div>
     </Router>

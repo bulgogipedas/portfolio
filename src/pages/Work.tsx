@@ -34,25 +34,53 @@ export default function Work() {
         title="Tucome"
         description="Tucome: An online application that connects freelance workers with service requests from the community using artificial intelligence (AI). Achievement: 1st Winners UX Challenge 4C National Competition"
         buttonLink="/Tucome"
-        cardColor="#8255F8"
+        cardColor="bg-[#8255F8]"
+        textColor="text-[#8255F8]"
       />
 
       <ProjectCardReverse
-        imageSrc="public/tucome.svg"
-        title="Tucome"
-        description="Tucome: An online application that connects freelance workers with service requests from the community using artificial intelligence (AI). Achievement: 1st Winners UX Challenge 4C National Competition"
-        buttonLink="/Contact"
-        cardColor="bg-white"
-      />    
+        imageSrc="public/savefood.svg"
+        title="Savefood"
+        description="Food waste solution with donation fiture and marketplace. Achievement:
+        1st Winners Software Development Switchfest 2023,
+        3rd Winners Software Development Invofest 2023,
+        1st Winners Raion Hackjam 2023,
+        1st Business Case Competition Before"
+        buttonLink="/Savefood"
+        cardColor="bg-[#61A894]"
+        textColor="text-[#61A894]"
+      />
 
       <ProjectCard
-        imageSrc="public/tucome.svg"
-        title="Tucome"
-        description="Tucome: An online application that connects freelance workers with service requests from the community using artificial intelligence (AI). Achievement: 1st Winners UX Challenge 4C National Competition"
-        buttonLink="/Notes"
-        cardColor="#8255F8"
+        imageSrc="public/coddie.svg"
+        title="Coddie"
+        description="Mobile-Based Coding Learning App for Kids with Integrated Gamification Features. Achievement:
+        1st Winners UI/UX Design Invention 2023"
+        buttonLink="/Coddie"
+        cardColor="bg-[#FFBA81]"
+        textColor="text-[#FFBA81]"
       />
-      <Footer/>
+
+      <ProjectCardReverse
+        imageSrc="public/nutrisyncs.svg"
+        title="NutriSync"
+        description="Smart platform to design personalized diet plans and workout programs tailored to users' daily routines with the assistance of artificial intelligence (AI). Achievement:
+        1st Runners-up Winners UI UX ICOM UAD 2023"
+        buttonLink="/NutriSync"
+        cardColor="bg-[#68B83C]"
+        textColor="text-[#68B83C]"
+      />
+
+      <ProjectCard
+        imageSrc="public/ecotions.svg"
+        title="Ecotions"
+        description="An Application for Lowering Carbon Emissions with Monitoring and Carbon Footprint Reduction Features. Achievment:
+        1st Runners Up UI UX Infovest 2023"
+        buttonLink="/Ecotions"
+        cardColor="bg-[#4F8C7B]"
+        textColor="text-[#4F8C7B]"
+      />
+      <Footer />
     </div>
   );
 }
