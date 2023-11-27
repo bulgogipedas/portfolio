@@ -1,5 +1,6 @@
 import Navbar from "../../components/layout/Navbar";
 import DetailButton from "../../components/DetailButton";
+import Footer from "../../components/layout/Footer";
 
 export default function Tucome() {
   return (
@@ -118,6 +119,41 @@ export default function Tucome() {
           To further maximize user research, we use 3 different approaches.
         </p>
       </div>
+      <div className="bg-white w-[70%] rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
+        <img className="w-[70%]" src="public/positioningApp.svg" alt="" />
+      </div>
+      <div className=" text-white pb-5 px-[150px]">
+        <p className="text-[18px]  text-justify   ">
+          We have also developed perceptual mapping to chart the position of our
+          product in comparison to competitors, focusing on the aspects of price
+          and features offered. This analysis is divided into two key
+          dimensions: sophistication and the variety of job services. The first
+          dimension, sophistication, denotes the level of innovative technology
+          embedded in the application. The second dimension, variety,
+          illustrates the diversity of job services available. In this
+          perceptual mapping, we place the Tucome application in the segment
+          representing high sophistication and diversity, affirming its position
+          as a sophisticated and diverse solution in this category.
+        </p>
+      </div>
+
+      <div className=" text-white pb-5 px-[150px]">
+        <h1 className="text-[64px] font-extrabold pb-4">Usability Testing</h1>
+        <p className="text-[18px]  text-justify   ">
+          After we did the application User Interface development. Next, we
+          carry out usability testing of the hi-fi UI by assigning tasks to be
+          performed by users. After that, we conducted an in-depth interview
+          session to dig deeper about user flow, and feedback on the elements in
+          the design. We use moderated and unmoderated testing. Moderated
+          testing is done by direct interviews, while unmoderated testing is
+          done using the Maze platform.
+        </p>
+      </div>
+      <div className="bg-[#F1ECFF] w-[70%] rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
+        <img className="w-[70%]" src="public/images/usabilityTesting.png" alt="" />
+      </div>
+
+      <Footer/>
     </div>
   );
 }

@@ -8,16 +8,16 @@ interface ProjectCardReverseProps {
   cardColor: string;
 }
 
-const ProjectCardReverse: React.FC<ProjectCardReverseProps> = ({
+const ProjectCardReverse = ({
   imageSrc,
   title,
   description,
   buttonLink,
   cardColor,
-}) => {
+}: ProjectCardReverseProps) => {
   return (
     <div
-      className={`bg-[${cardColor}] w-full rounded-2xl py-12 flex flex-wrap gap-10 items-center justify-center mb-10`}
+      className={`${cardColor} w-full rounded-2xl py-12 flex flex-wrap gap-10 items-center justify-center mb-10`}
     >
       <div className={`text-[#DBEFFE] w-[30%] text-justify`}>
         <h1 className="text-[64px] font-bold">{title}</h1>

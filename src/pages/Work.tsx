@@ -42,8 +42,8 @@ export default function Work() {
         title="Tucome"
         description="Tucome: An online application that connects freelance workers with service requests from the community using artificial intelligence (AI). Achievement: 1st Winners UX Challenge 4C National Competition"
         buttonLink="/Contact"
-        cardColor="#8255F8"
-      />
+        cardColor="bg-white"
+      />    
 
       <ProjectCard
         imageSrc="public/tucome.svg"
