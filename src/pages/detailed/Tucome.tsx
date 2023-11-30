@@ -1,6 +1,7 @@
 import Navbar from "../../components/layout/Navbar";
 import DetailButton from "../../components/DetailButton";
 import Footer from "../../components/layout/Footer";
+import CardUserResearch from "../../components/pages/about/CardUserResearch";
 
 export default function Tucome() {
   return (
@@ -119,8 +120,17 @@ export default function Tucome() {
           To further maximize user research, we use 3 different approaches.
         </p>
       </div>
-      <div className="bg-white w-[70%] rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
-        <img className="w-[70%]" src="public/positioningApp.svg" alt="" />
+      <div className="flex justify-between gap-4 mt-10 px-24 mb-20">
+          <CardUserResearch />
+          <CardUserResearch /> 
+          <CardUserResearch />
+      </div>
+      
+      <div className="px-[150px]">
+      <h1 className="text-[64px] font-extrabold pb-4 text-white">User Research</h1>
+      <div className="bg-white rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
+        <img className="w-full" src="public/positioningApp.svg" alt="" />
+      </div>
       </div>
       <div className=" text-white pb-5 px-[150px]">
         <p className="text-[18px]  text-justify   ">

@@ -1,12 +1,10 @@
 import Navbar from "../components/layout/Navbar";
 import Image from "../components/layout/Image";
 import Image2 from "../components/layout/Image2";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import axios from "axios";
 
 export default function Work() {
-  const [recentlyPlayedTrack, setRecentlyPlayedTrack] = useState(null);
-
   useEffect(() => {
     const fetchData = async () => {
       try {

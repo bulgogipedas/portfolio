@@ -23,7 +23,7 @@ export default function Tucome() {
           </ul>
         </div>
         <div className="flex flex-col">
-          <h3 className="font-bold">Role</h3>
+          <h3 className="font-bold">Role</h3> 
           <ul>
             <li>UX Research</li>
             <li>UI Designer</li>

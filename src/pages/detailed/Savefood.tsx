@@ -125,7 +125,9 @@ export default function Tucome() {
         </p>
       </div>
       <div className="flex gap-10">
-      <div className="w-[323px] h-[334px] bg-zinc-700 rounded-3xl"></div>
+      <div className="w-[323px] h-[334px] bg-zinc-700 rounded-3xl">
+        
+      </div>
       <div className="w-[323px] h-[334px] bg-zinc-700 rounded-3xl"></div>
       <div className="w-[323px] h-[334px] bg-zinc-700 rounded-3xl"></div>
       </div>
