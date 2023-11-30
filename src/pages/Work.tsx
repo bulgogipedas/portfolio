@@ -52,7 +52,7 @@ export default function Work() {
       />
 
       <ProjectCard
-        imageSrc="/coddie.svg"
+        imageSrc="/Coddie.svg"
         title="Coddie"
         description="Mobile-Based Coding Learning App for Kids with Integrated Gamification Features. Achievement:
         1st Winners UI/UX Design Invention 2023"
