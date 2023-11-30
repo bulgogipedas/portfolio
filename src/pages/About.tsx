@@ -166,19 +166,19 @@ export default function Work() {
 
       <div className="flex gap-10">
         <Image
-          Uri="public/images/images1.jpg"
+          Uri="/images/images1.jpg"
           caption="Pasupati Bridge, Bandung."
         />
-        <Image2 Uri="public/images/images3.jpg" caption="Ciwidey, Bandung." />
+        <Image2 Uri="/images/images3.jpg" caption="Ciwidey, Bandung." />
       </div>
 
       <div className="flex gap-10 py-10">
         <Image2
-          Uri="public/images/images4.jpg"
+          Uri="/images/images4.jpg"
           caption="Al-jabbar Mosque, Bandung."
         />
         <Image
-          Uri="public/images/images2.jpg"
+          Uri="/images/images2.jpg"
           caption="Asia Afrika street, Bandung."
         />
       </div>

@@ -30,7 +30,7 @@ export default function Work() {
         </div>
       </div> */}
       <ProjectCard
-        imageSrc="public/tucome.svg"
+        imageSrc="/tucome.svg"
         title="Tucome"
         description="Tucome: An online application that connects freelance workers with service requests from the community using artificial intelligence (AI). Achievement: 1st Winners UX Challenge 4C National Competition"
         buttonLink="/Tucome"
@@ -39,7 +39,7 @@ export default function Work() {
       />
 
       <ProjectCardReverse
-        imageSrc="public/savefood.svg"
+        imageSrc="/savefood.svg"
         title="Savefood"
         description="Food waste solution with donation fiture and marketplace. Achievement:
         1st Winners Software Development Switchfest 2023,
@@ -52,7 +52,7 @@ export default function Work() {
       />
 
       <ProjectCard
-        imageSrc="public/coddie.svg"
+        imageSrc="/coddie.svg"
         title="Coddie"
         description="Mobile-Based Coding Learning App for Kids with Integrated Gamification Features. Achievement:
         1st Winners UI/UX Design Invention 2023"
@@ -62,7 +62,7 @@ export default function Work() {
       />
 
       <ProjectCardReverse
-        imageSrc="public/nutrisyncs.svg"
+        imageSrc="/nutrisyncs.svg"
         title="NutriSync"
         description="Smart platform to design personalized diet plans and workout programs tailored to users' daily routines with the assistance of artificial intelligence (AI). Achievement:
         1st Runners-up Winners UI UX ICOM UAD 2023"
@@ -72,7 +72,7 @@ export default function Work() {
       />
 
       <ProjectCard
-        imageSrc="public/ecotions.svg"
+        imageSrc="/ecotions.svg"
         title="Ecotions"
         description="An Application for Lowering Carbon Emissions with Monitoring and Carbon Footprint Reduction Features. Achievment:
         1st Runners Up UI UX Infovest 2023"
