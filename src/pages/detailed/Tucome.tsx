@@ -36,7 +36,7 @@ export default function Tucome() {
       </div>
 
       <div className="bg-[#8255F8] w-full rounded-2xl py-12 flex flex-wrap gap-10 items-center justify-center mb-10">
-        <img className="w-[70%]" src="public/tucomeBarcode.svg" alt="" />
+        <img className="w-[70%]" src="/tucomeBarcode.svg" alt="" />
       </div>
 
       <div className=" text-white pb-5 px-[150px]">
@@ -129,7 +129,7 @@ export default function Tucome() {
       <div className="px-[150px]">
       <h1 className="text-[64px] font-extrabold pb-4 text-white">User Research</h1>
       <div className="bg-white rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
-        <img className="w-full" src="public/positioningApp.svg" alt="" />
+        <img className="w-full" src="/positioningApp.svg" alt="" />
       </div>
       </div>
       <div className=" text-white pb-5 px-[150px]">
@@ -160,7 +160,7 @@ export default function Tucome() {
         </p>
       </div>
       <div className="bg-[#F1ECFF] w-[70%] rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
-        <img className="w-[70%]" src="public/images/usabilityTesting.png" alt="" />
+        <img className="w-[70%]" src="/images/usabilityTesting.png" alt="" />
       </div>
 
       <Footer/>
