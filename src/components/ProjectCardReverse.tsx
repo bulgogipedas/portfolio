@@ -18,10 +18,10 @@ const ProjectCardReverse = ({
   textColor
 }: ProjectCardReverseProps) => {
   return (
-    <div
-    className={`${cardColor} w-full rounded-2xl py-12 flex flex-wrap gap-10 items-center justify-center mb-10`}
+    <div data-aos="fade-left"
+    className={`${cardColor} w-full rounded-2xl py-12 flex lg:flex-row flex-col-reverse flex-wrap gap-10 items-center justify-center mb-10`}
     >
-      <div className={`text-white w-[30%] text-justify`}>
+      <div className={`text-white lg:w-[30%] text-justify lg:px-0 px-10`}>
         <h1 className="text-[64px] font-bold">{title}</h1>
         <p className="pb-10">{description}</p>
         <a href={buttonLink}>

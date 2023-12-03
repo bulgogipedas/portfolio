@@ -8,7 +8,7 @@ export default function Image(props: Props) {
   const [isHovered, setIsHover] = useState(false);
 
   return (
-    <div className="relative">
+    <div className="relative" data-aos="fade-up">
       <img
         onMouseOver={() => {
           setIsHover(true);

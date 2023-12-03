@@ -1,6 +1,7 @@
 import Navbar from "../components/layout/Navbar";
 import Image from "../components/layout/Image";
 import Image2 from "../components/layout/Image2";
+
 import { useEffect } from "react";
 import axios from "axios";
 
@@ -48,18 +49,20 @@ export default function Work() {
   }, []);
 
   return (
-    <div className="pt-[185px] font-segoe_ui ">
+    <div className="lg:pt-[185px] pt-[150px] font-segoe_ui ">
       <Navbar />
-      <h1 className="font-segoe_ui text-[#B9DFFC] font-extrabold text-center items-center text-[128px]">
+      <h1 className="font-segoe_ui text-[#B9DFFC] font-extrabold text-center items-center lg:text-[128px] text-[80px]" data-aos="fade-down">
         Hi, I'm Rafli.
       </h1>
 
-      <div className="flex items-start justify-center gap-20 pt-10">
-        <div className="flex-col">
-          <div className="bg-gradient-to-tl from-blue-500 via-blue-600 to-blue-700 w-[345px] h-[300px] rounded-t-3xl"></div>
-          <div className="bg-[#DBEFFE] w-[345px] h-[80px] "></div>
+      <div className="lg:flex-row flex-col flex items-start justify-center lg:gap-20 pt-10">
+        <div className="flex-col" data-aos="fade-right">
+          <div className="bg-gradient-to-tl relative from-blue-500 via-blue-600 to-blue-700 w-[345px] h-[380px] rounded-t-3xl">
+            <img className="absolute bottom-0" src="/images/profil.png" alt="" />
+          </div>
+          
         </div>
-        <div className="">
+        <div className="" data-aos="fade-left">
           <h2 className=" text-[#DBEFFE] text-[48px] font-bold pt-10 pb-5">
             I'm a Data Enthusiast from Bandung, Indonesia
           </h2>
@@ -74,11 +77,11 @@ export default function Work() {
       </div>
 
       <div className="pt-[120px] text-[#DBEFFE] pb-5">
-        <h1 className="text-[48px] font-bold pb-5">
+        <h1 className="text-[48px] font-bold pb-5" data-aos="fade-up">
           Let's collaborate if you're committed to sustainability, education,
           equality, or carbon neutrality.
         </h1>
-        <p className="text-[20px] text-[#DBEFFE] pb-16 text-justify">
+        <p className="text-[20px] text-[#DBEFFE] pb-16 text-justify" data-aos="fade-up">
           I am driven by the belief that we should leave this Earth in a
           condition as good as or better than we found it for future
           generations. My goal is to actively contribute to these ideals in any
@@ -87,8 +90,8 @@ export default function Work() {
         </p>
       </div>
 
-      <div className="bg-[#1694F6]/10 w-full rounded-3xl py-16 px-24 flex flex-wrap gap-10 items-center justify-center">
-        <div className="w-[40%] text-justify ">
+      <div className="bg-[#1694F6]/10 w-full rounded-3xl py-16 lg:px-24 px-10 flex flex-wrap gap-10 items-center justify-center" data-aos="fade-up">
+        <div className="lg:w-[40%] text-justify ">
           <h1 className="text-[48px] text-[#1694F6] font-bold">01</h1>
           <h2 className="text-[32px] text-[#DBEFFE] font-bold">Make it</h2>
           <p className="text-[20px] text-[#DBEFFE]">
@@ -100,7 +103,7 @@ export default function Work() {
             also inspiring through visually engaging representations
           </p>
         </div>
-        <div className="w-[40%] text-justify">
+        <div className="lg:w-[40%] text-justify">
           <h1 className="text-[48px] text-[#1694F6] font-bold">02</h1>
           <h2 className="text-[32px] text-[#DBEFFE] font-bold">Collaborate</h2>
           <p className="text-[20px] text-[#DBEFFE]">
@@ -113,7 +116,7 @@ export default function Work() {
             understanding
           </p>
         </div>
-        <div className="w-[40%] ">
+        <div className="lg:w-[40%] ">
           <h1 className="text-[48px] text-[#1694F6] font-bold">03</h1>
           <h2 className="text-[32px] text-[#DBEFFE] font-bold">
             Inclusive Excellence
@@ -126,7 +129,7 @@ export default function Work() {
             be understood and utilized by all, not just a select few.
           </p>
         </div>
-        <div className="w-[40%] text-justify ">
+        <div className="lg:w-[40%] text-justify ">
           <h1 className="text-[48px] text-[#1694F6] font-bold">04</h1>
           <h2 className="text-[32px] text-[#DBEFFE] font-bold">
             Keep experimenting
@@ -142,8 +145,8 @@ export default function Work() {
         </div>
       </div>
 
-      <div className="pt-[68px] text-[#DBEFFE] pb-5">
-        <p className="text-[20px] px-[150px] text-justify   ">
+      <div className="pt-[68px] text-[#DBEFFE] pb-5" data-aos="fade-up">
+        <p className="text-[20px] lg:px-[150px] text-justify   ">
           I'm currently in my fifth semester at the Information Technology
           Department, Faculty of Computer Science, Universitas Brawijaya. I
           initially had an interest in the product manager field, but my
@@ -183,10 +186,7 @@ export default function Work() {
         />
       </div>
 
-      <div className="bg-white/10 w-[580px] h-[80px] rounded-full pb-16 flex">
-        <div>asda</div>
-      </div>
-      <p className="pt-10 text-[#DBEFFE]">© 2023 Rafli Ardiansyah • Bandung</p>
+    
     </div>
   );
 }

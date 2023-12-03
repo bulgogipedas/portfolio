@@ -7,7 +7,7 @@ interface Props extends React.ImgHTMLAttributes<HTMLImageElement> {
 export default function Image2(props: Props){
     const [isHovered, setIsHover] = useState(false);
     return(
-        <div className="relative">
+        <div className="relative" data-aos="fade-up">
       <img
         onMouseOver={() => {
           setIsHover(true);

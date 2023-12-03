@@ -4,12 +4,12 @@ import ProjectCardReverse from "../components/ProjectCardReverse";
 import Footer from "../components/layout/Footer";
 export default function Work() {
   return (
-    <div className="pt-[185px] font-segoe_ui mx-[3%]">
+    <div className="pt-[185px] font-segoe_ui w-full lg:mx-[3%]">
       <Navbar />
-      <h1 className="font-segoe_ui font-extrabold text-center items-center text-[128px] bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text">
+      <h1 data-aos="fade-up" className="font-segoe_ui font-extrabold text-center items-center lg:text-[128px] text-[100px] bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text">
         Hi, I'm Rafli.
       </h1>
-      <p className="text-center text-[20px] text-[#DBEFFE] pb-10">
+      <p data-aos="fade-up" className="text-center text-[20px] text-[#DBEFFE] pb-10">
         I'm dedicated to shaping experiences that captivate, resonate, and
         prioritize the needs of our users. Ensuring engagement, accessibility,
         and a user-centric approach are at the core of my product management

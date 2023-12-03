@@ -17,7 +17,7 @@ const ExampleComponent = () => {
       wrapper="div"
       cursor={true}
       repeat={Infinity}
-      className="font-segoe_ui font-extrabold text-center items-center text-[104px] bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text"
+      className="font-segoe_ui font-extrabold text-center items-center lg:text-[104px] text-[80px] bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-transparent bg-clip-text"
     />
   );
 };
