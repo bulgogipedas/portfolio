@@ -43,7 +43,7 @@ AOS.init({
 export default function App() {
   return (
     <Router>
-      <div className='bg-[#283831] min-h-screen lg:px-[200px] px-[100px]'>
+      <div className='bg-[#283831] min-h-screen lg:px-[200px] md:px-[100px] px-[40px]'>
         <Navbar />
         <Routes>
           <Route path="/Work" element={<Work />} />

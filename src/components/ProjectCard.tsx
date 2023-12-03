@@ -18,16 +18,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   textColor
 }) => {
   return (
-    <div data-aos="fade-right"
+    <div data-aos="fade-up"
       className={`${cardColor} w-full rounded-2xl py-12 flex flex-wrap lg:flex-row flex-col gap-10 items-center justify-center mb-10`}
     >
-      <img className="md:w-[50%] w-full h-[350px]" src={imageSrc} alt="" />
+      <img className="md:w-[50%] w-[70%] lg:h-[350px] " src={imageSrc} alt="" />
       <div className={`text-white lg:w-[30%] w-full text-justify lg:px-0 px-10`}>
-        <h1 className="text-[64px] font-bold">{title}</h1>
-        <p className="pb-10">{description}</p>
+        <h1 className="lg:text-[64px] text-[32px] font-bold">{title}</h1>
+        <p className="lg:pb-10 pb-5 lg:text-[20px] text-[12px]">{description}</p>
         <a href={buttonLink} className="w-full">
           <button
-            className={`py-2 px-4 ${textColor} rounded-full bg-white text-[18px] hover:ring-2 ring-black duration-300 active:font-bold `}
+            className={`py-2 px-4 ${textColor} rounded-full bg-white lg:text-[18px] text-[10px] hover:ring-2 ring-black duration-300 active:font-bold `}
           >
             See Project
           </button>

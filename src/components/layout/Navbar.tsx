@@ -12,8 +12,8 @@ function Navbar() {
   
 
   return (
-    <nav className={`font-segoe_ui fixed font-medium top-12 right-0 left-0 text-white items-center flex justify-center txt-[24px] z-10`}>
-      <ul className={`p-3 rounded-full flex gap-10 items-center w-fit transition duration-300 ${isVisible && 'bg-[#254336]'}`}>
+    <nav className={`font-segoe_ui fixed font-medium top-12 right-0 left-0 text-white items-center flex justify-center lg:text-[18px] text-[12px] z-10`}>
+      <ul className={`p-3 rounded-full flex lg:gap-10 items-center w-fit transition duration-300 ${isVisible && 'bg-[#254336]'}`}>
         <li>
           <Link
             className={`py-1 px-3 duration-300 rounded-full hover:bg-white/20 ${
