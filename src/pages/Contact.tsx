@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="pt-[185px] font-segoe_ui">
       <Navbar />
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex lg:flex-row flex-col items-center justify-center">
         <h1 className="text-[#B9DFFC] font-extrabold text-center lg:text-[104px] text-[80px] pr-6">
           Hi, I'm a
         </h1>
