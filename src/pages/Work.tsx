@@ -1,7 +1,6 @@
 import Navbar from "../components/layout/Navbar";
 import ProjectCard from "../components/ProjectCard";
 import ProjectCardReverse from "../components/ProjectCardReverse";
-import Footer from "../components/layout/Footer";
 
 export default function Work() {
   return (
