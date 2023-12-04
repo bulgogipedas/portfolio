@@ -45,28 +45,28 @@ export default function Work() {
       }
     };
 
-    fetchData();
+    // fetchData();
   }, []);
 
   return (
     <div className="lg:pt-[185px] pt-[150px] font-segoe_ui ">
       <Navbar />
-      <h1 className="font-segoe_ui text-[#B9DFFC] font-extrabold text-center items-center lg:text-[128px] text-[80px]" data-aos="fade-down">
+      <h1 className="font-segoe_ui text-[#B9DFFC] font-extrabold text-center items-center lg:text-[128px] text-[50px]" data-aos="fade-down">
         Hi, I'm Rafli.
       </h1>
 
       <div className="lg:flex-row flex-col flex items-start justify-center lg:gap-20 pt-10">
-        <div className="flex-col" data-aos="fade-right">
-          <div className="bg-gradient-to-tl relative from-blue-500 via-blue-600 to-blue-700 w-[345px] h-[380px] rounded-t-3xl">
+        <div className="flex-col lg:w-fit w-full" data-aos="fade-up">
+          <div className="bg-gradient-to-tl relative from-blue-500 via-blue-600 to-blue-700 lg:w-[345px] md:w-[300px] sm:w-[200px] w-full h-[380px] rounded-t-3xl">
             <img className="absolute bottom-0" src="/images/profil.png" alt="" />
           </div>
           
         </div>
-        <div className="" data-aos="fade-left">
-          <h2 className=" text-[#DBEFFE] text-[48px] font-bold pt-10 pb-5">
+        <div className="" data-aos="fade-up">
+          <h2 className=" text-[#DBEFFE] lg:text-[48px] text-[28px] font-bold pt-10 pb-5">
             I'm a Data Enthusiast from Bandung, Indonesia
           </h2>
-          <p className="text-[#DBEFFE] text-[20px] text-justify">
+          <p className="text-[#DBEFFE] lg:text-[20px] text-[14px] text-justify">
             As an information systems student, I have experience working with
             various types of digital data, including roles in data analysis,
             data science, data engineering, product management, and UX Research.
@@ -76,12 +76,12 @@ export default function Work() {
         </div>
       </div>
 
-      <div className="pt-[120px] text-[#DBEFFE] pb-5">
-        <h1 className="text-[48px] font-bold pb-5" data-aos="fade-up">
+      <div className="lg:pt-[120px] pt-4 text-[#DBEFFE] pb-5">
+        <h1 className="lg:text-[48px] text-[28px] font-bold pb-5" data-aos="fade-up">
           Let's collaborate if you're committed to sustainability, education,
           equality, or carbon neutrality.
         </h1>
-        <p className="text-[20px] text-[#DBEFFE] pb-16 text-justify" data-aos="fade-up">
+        <p className="lg:text-[20px] text-[14px] text-[#DBEFFE] pb-16 text-justify" data-aos="fade-up">
           I am driven by the belief that we should leave this Earth in a
           condition as good as or better than we found it for future
           generations. My goal is to actively contribute to these ideals in any
@@ -90,11 +90,11 @@ export default function Work() {
         </p>
       </div>
 
-      <div className="bg-[#1694F6]/10 w-full rounded-3xl py-16 lg:px-24 px-10 flex flex-wrap gap-10 items-center justify-center" data-aos="fade-up">
+      <div className="bg-[#1694F6]/10 w-full rounded-3xl py-16 lg:px-24 px-10 flex flex-wrap lg:gap-20 gap-10 items-center justify-center" data-aos="fade-up">
         <div className="lg:w-[40%] text-justify ">
-          <h1 className="text-[48px] text-[#1694F6] font-bold">01</h1>
-          <h2 className="text-[32px] text-[#DBEFFE] font-bold">Make it</h2>
-          <p className="text-[20px] text-[#DBEFFE]">
+          <h1 className="lg:text-[48px] text-[28px] text-[#1694F6] font-bold">01</h1>
+          <h2 className="lg:text-[32px] text-[20px] text-[#DBEFFE] font-bold">Make it</h2>
+          <p className="lg:text-[20px] text-[12px] text-[#DBEFFE]">
             I have a strong penchant for visually presenting data, combining
             aesthetics with simplicity. I enjoy crafting compelling yet
             straightforward visualizations that bring data to life. For me, the
@@ -104,9 +104,9 @@ export default function Work() {
           </p>
         </div>
         <div className="lg:w-[40%] text-justify">
-          <h1 className="text-[48px] text-[#1694F6] font-bold">02</h1>
-          <h2 className="text-[32px] text-[#DBEFFE] font-bold">Collaborate</h2>
-          <p className="text-[20px] text-[#DBEFFE]">
+          <h1 className="lg:text-[48px] text-[28px] text-[#1694F6] font-bold">02</h1>
+          <h2 className="lg:text-[32px] text-[20px] text-[#DBEFFE] font-bold">Collaborate</h2>
+          <p className="lg:text-[20px] text-[12px] text-[#DBEFFE]">
             Effective data analysis doesn't happen in isolation; it thrives in
             collaboration. I believe in involving stakeholders throughout the
             analysis process, fostering a cooperative environment that values
@@ -117,11 +117,11 @@ export default function Work() {
           </p>
         </div>
         <div className="lg:w-[40%] ">
-          <h1 className="text-[48px] text-[#1694F6] font-bold">03</h1>
-          <h2 className="text-[32px] text-[#DBEFFE] font-bold">
+          <h1 className="lg:text-[48px] text-[28px] text-[#1694F6] font-bold">03</h1>
+          <h2 className="lg:text-[32px] text-[20px] text-[#DBEFFE] font-bold">
             Inclusive Excellence
           </h2>
-          <p className="text-[20px] text-[#DBEFFE] text-justify">
+          <p className="lg:text-[20px] text-[12px] text-[#DBEFFE] text-justify">
             My aim is to ensure that insights derived from data are accessible
             to everyone. Prioritizing inclusivity in data analysis is not merely
             a choice; it's a necessity. Accessible data benefits a broader
@@ -130,11 +130,11 @@ export default function Work() {
           </p>
         </div>
         <div className="lg:w-[40%] text-justify ">
-          <h1 className="text-[48px] text-[#1694F6] font-bold">04</h1>
-          <h2 className="text-[32px] text-[#DBEFFE] font-bold">
+          <h1 className="lg:text-[48px] text-[28px] text-[#1694F6] font-bold">04</h1>
+          <h2 className="lg:text-[32px] text-[20px] text-[#DBEFFE] font-bold">
             Keep experimenting
           </h2>
-          <p className="text-[20px] text-[#DBEFFE]">
+          <p className="lg:text-[20px] text-[12px] text-[#DBEFFE]">
             Every analysis I undertake is open to change and experimentation.
             Not every approach may yield results, but the value lies in the
             attempt - trying new methods and learning from what doesn't work.
@@ -146,7 +146,7 @@ export default function Work() {
       </div>
 
       <div className="pt-[68px] text-[#DBEFFE] pb-5" data-aos="fade-up">
-        <p className="text-[20px] lg:px-[150px] text-justify   ">
+        <p className="lg:text-[20px] text-[14px] lg:px-[150px] text-justify   ">
           I'm currently in my fifth semester at the Information Technology
           Department, Faculty of Computer Science, Universitas Brawijaya. I
           initially had an interest in the product manager field, but my
