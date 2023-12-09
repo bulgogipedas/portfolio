@@ -1,3 +1,4 @@
+import Footer from "../components/layout/Footer";
 import Navbar from "../components/layout/Navbar";
 import ProjectCard from "../components/ProjectCard";
 import ProjectCardReverse from "../components/ProjectCardReverse";
@@ -80,7 +81,7 @@ export default function Work() {
         cardColor="bg-[#4F8C7B]"
         textColor="text-[#4F8C7B]"
       />
-      
+      <Footer/>
     </div>
   );
 }

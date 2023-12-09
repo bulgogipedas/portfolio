@@ -1,6 +1,8 @@
 import Navbar from "../components/layout/Navbar";
 import Image from "../components/layout/Image";
 import Image2 from "../components/layout/Image2";
+import Footer from "../components/layout/Footer";
+
 
 
 export default function Work() {
@@ -141,8 +143,7 @@ export default function Work() {
           caption="Asia Afrika street, Bandung."
         />
       </div>
-
-    
+      <Footer/>
     </div>
   );
 }

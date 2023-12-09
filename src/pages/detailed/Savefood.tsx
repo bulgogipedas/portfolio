@@ -1,29 +1,29 @@
 import Navbar from "../../components/layout/Navbar";
 import DetailButton from "../../components/DetailButton";
+import CardUserResearch from "../../components/pages/about/CardUserResearch";
 import Footer from "../../components/layout/Footer";
-
 export default function Tucome() {
   return (
     <div className="pt-[185px] font-segoe_ui mx-[3%]">
       <Navbar />
-      <h1 className="font-segoe_ui text-[#B9DFFC] font-extrabold text-center items-center text-[128px]">
+      <h1 data-aos="fade-up" className="font-segoe_ui text-[#B9DFFC] font-extrabold text-center items-center lg:text-[128px] text-[64px]">
         Savefood
       </h1>
 
-      <div className="flex gap-10 items-start justify-center text-[20px] text-white mb-16">
-        <div className="flex flex-col">
+      <div className="flex gap-10 items-start justify-center lg:text-[20px] text-[12px] text-white mb-16">
+        <div data-aos="fade-up" className="flex flex-col">
           <h3 className="font-bold">Timeline</h3>
           <p>Feb - Mei 2023</p>
         </div>
-        <div className="flex flex-col">
-          <h3 className="font-bold">Team</h3>
+        <div  className="flex flex-col">
+          <h3 data-aos="fade-up" className="font-bold">Team</h3>
           <ul>
             <li>Rafli Ardiansyah</li>
             <li>Muchammad Saifurrijaal</li>
             <li>Daniswari Yurin Azzahra</li>
           </ul>
         </div>
-        <div className="flex flex-col">
+        <div data-aos="fade-up" className="flex flex-col">
           <h3 className="font-bold">Role</h3>
           <ul>
             <li>Product Management</li>
@@ -33,13 +33,15 @@ export default function Tucome() {
         </div>
       </div>
 
-      <div className="bg-[#F6F6F6] w-full rounded-2xl py-12 flex flex-wrap gap-10 items-center justify-center mb-10">
+      <div data-aos="fade-up" className="bg-[#F6F6F6] w-full rounded-2xl py-12 flex flex-wrap gap-10 items-center justify-center mb-10">
         <img className="w-[70%]" src="public/SavefoodDetail.svg" alt="" />
       </div>
 
-      <div className=" text-white pb-5 px-[150px]">
-        <h1 className="text-[64px] font-extrabold pb-4">Project Summary</h1>
-        <p className="text-[18px]  text-justify   ">
+      <div className=" text-white pb-5 lg:px-[150px]">
+        <h1 data-aos="fade-up" className="text-[40px] lg:text-[64px] font-extrabold pb-4">
+          Project Summary
+        </h1>
+        <p data-aos="fade-up" className="text-[12px] lg:text-[18px]  text-justify   ">
           Food loss and food waste pose significant challenges in Indonesia,
           impacting both food security and the environment. Approximately 14
           million tons of food are lost annually for various reasons, including
@@ -70,9 +72,9 @@ export default function Tucome() {
         </p>
       </div>
 
-      <div className="bg-[#8ED7C0] w-full rounded-2xl py-12 items-center justify-center mb-10 text-[#0E5741] px-[150px] ">
-        <h1 className="text-[48px] font-bold ">Achievement</h1>
-        <ol className="text-[20px] list-disc">
+      <div data-aos="fade-up" className="bg-[#8ED7C0] w-full rounded-2xl py-12 items-center justify-center mb-10 text-[#0E5741] lg:px-[150px] px-12 ">
+        <h1 className="text-[32px] lg:text-[48px] font-bold ">Achievement</h1>
+        <ol className="text-[12px] lg:text-[20px] list-disc">
           <li>1st Software Development Switchfest 2023</li>
           <li>1st Winners Business Plan Before 2023</li>
           <li>1st Winners Raion Hackjam 2023</li>
@@ -82,9 +84,11 @@ export default function Tucome() {
         <DetailButton uri="https://play.google.com/store/apps/details?id=com.msaifurrijaal.savefood&hl=en" />
       </div>
 
-      <div className=" text-white pb-5 px-[150px]">
-        <h1 className="text-[64px] font-extrabold pb-4">The Problem</h1>
-        <p className="text-[18px]  text-justify   ">
+      <div className=" text-white pb-5 lg:px-[150px]">
+        <h1 data-aos="fade-up" className="text-[40px] lg:text-[64px] font-extrabold pb-4">
+          The Problem
+        </h1>
+        <p data-aos="fade-up" className="text-[12px] lg:text-[18px]  text-justify   ">
           Food loss and waste pose a significant challenge in Indonesia, with 14
           million tons lost annually due to inadequate infrastructure and
           inefficient practices. Household contributions, accounting for 61% of
@@ -98,9 +102,11 @@ export default function Tucome() {
         </p>
       </div>
 
-      <div className=" text-white pb-5 px-[150px]">
-        <h1 className="text-[64px] font-extrabold pb-4">The Solution</h1>
-        <p className="text-[18px]  text-justify   ">
+      <div className=" text-white pb-5 lg:px-[150px]">
+        <h1 data-aos="fade-up" className="text-[40px] lg:text-[64px] font-extrabold pb-4">
+          The Solution
+        </h1>
+        <p data-aos="fade-up" className="text-[12px] lg:text-[18px]  text-justify   ">
           Introducing Savefood, an innovative app designed to tackle the food
           loss and waste issue in Indonesia. Savefood acts as a food rescue
           platform, allowing users to donate surplus food through a marketplace
@@ -114,9 +120,11 @@ export default function Tucome() {
         </p>
       </div>
 
-      <div className=" text-white pb-5 px-[150px]">
-        <h1 className="text-[64px] font-extrabold pb-4">User Research</h1>
-        <p className="text-[18px]  text-justify   ">
+      <div className=" text-white pb-5 lg:px-[150px]">
+        <h1 data-aos="fade-up" className="text-[40px] lg:text-[64px] font-extrabold pb-4">
+          User Research
+        </h1>
+        <p data-aos="fade-up" className="text-[12px] lg:text-[18px]  text-justify   ">
           To understand the needs and pain points of users, we conduct user
           research using the Design Thinking method. The design thinking method
           has proven to be effective in understanding the wishes of the user, as
@@ -124,26 +132,38 @@ export default function Tucome() {
           To further maximize user research, we use 3 different approaches.
         </p>
       </div>
-      <div className="flex gap-10">
-      <div className="w-[323px] h-[334px] bg-zinc-700 rounded-3xl">
-        
-      </div>
-      <div className="w-[323px] h-[334px] bg-zinc-700 rounded-3xl"></div>
-      <div className="w-[323px] h-[334px] bg-zinc-700 rounded-3xl"></div>
-      </div>
-      <div className=" text-white pb-5 px-[150px]">
-      <h1 className="text-[64px] font-extrabold pb-4">Usability Testing</h1>
-      <div className="bg-white w-full rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
-        <img
-          className="w-[70%]"
-          src="public/images/positioningSavefood.png"
-          alt=""
+      <div data-aos="fade-up" className="flex justify-between gap-4 mt-10 px-24 mb-20">
+          <CardUserResearch
+          ImageSrc="bg-[url(https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)]"
+          Heading="Survey"
+          Description="The purpose of surveys is to get answers to important questions. We used to find out what users think and why they feel that way about it."
+        />
+        <CardUserResearch
+          ImageSrc="bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVVtL0jb6yJRRe5XmIJdi58ftrYBjs4fxJYKWHQLHokA&s)]"
+          Heading="Interview"
+          Description="Asked potential users questions to gain an understanding of their preferences, thoughts, and feelings"
+        />
+        <CardUserResearch
+          ImageSrc="bg-[url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVVtL0jb6yJRRe5XmIJdi58ftrYBjs4fxJYKWHQLHokA&s)]"
+          Heading="Secondary Research"
+          Description="We conducted secondary research to validate findings from surveys and interviews. Our main focus was data validation."
         />
       </div>
+      <div className=" text-white pb-5 lg:px-[150px]">
+        <h1 data-aos="fade-up" className="text-[40px] lg:text-[64px] font-extrabold pb-4">
+          Competition Analysis
+        </h1>
+        <div data-aos="fade-up" className="bg-white w-full rounded-2xl py-10 mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
+          <img
+            className="w-[70%]"
+            src="public/images/positioningSavefood.png"
+            alt=""
+          />
+        </div>
       </div>
 
-      <div className=" text-white pb-5 px-[150px]">
-        <p className="text-[18px]  text-justify   ">
+      <div className=" text-white pb-5 lg:px-[150px]">
+        <p data-aos="fade-up" className="text-[12px] lg:text-[18px]  text-justify   ">
           We have also developed perceptual mapping to chart the position of our
           product in comparison to competitors, focusing on the aspects of price
           and features offered. This analysis is divided into two key
@@ -157,9 +177,11 @@ export default function Tucome() {
         </p>
       </div>
 
-      <div className=" text-white pb-5 px-[150px]">
-        <h1 className="text-[64px] font-extrabold pb-4">Usability Testing</h1>
-        <p className="text-[18px]  text-justify   ">
+      <div className=" text-white pb-5 lg:px-[150px]">
+        <h1 data-aos="fade-up" className="text-[40px] lg:text-[64px] font-extrabold pb-4">
+          Usability Testing
+        </h1>
+        <p data-aos="fade-up" className="text-[12px] lg:text-[18px]  text-justify   ">
           After we did the application User Interface development. Next, we
           carry out usability testing of the hi-fi UI by assigning tasks to be
           performed by users. After that, we conducted an in-depth interview
@@ -169,7 +191,7 @@ export default function Tucome() {
           done using the Maze platform.
         </p>
       </div>
-      <div className="bg-[#F1ECFF] w-[70%] rounded-2xl  mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
+      <div data-aos="fade-up" className="bg-[#F1ECFF] w-[70%] rounded-2xl  mx-auto text-center flex flex-wrap gap-10 items-center justify-center mb-10">
         <img
           className="w-full h-full object-cover rounded-2xl"
           src="public/images/Maze.png"
@@ -177,7 +199,7 @@ export default function Tucome() {
         />
       </div>
 
-      <Footer />
+  <Footer />
     </div>
   );
 }
